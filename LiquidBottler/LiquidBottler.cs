@@ -7,7 +7,7 @@ public class LiquidBottler : Workable
 
     private LiquidBottler.Controller.Instance smi;
 
-    public bool dropWhenFull = false;
+    public bool dropWhenFull = true;
 
     protected override void OnSpawn()
     {
